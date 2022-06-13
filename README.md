@@ -7,7 +7,6 @@
 <ul>
     <li>ReactJS</li>
     <li>Pré-processador Sass</li>
-    <li>JavaScript</li>
 </ul>
 
 # Como executar
@@ -15,8 +14,8 @@
 Clone o projeto em seu dispositivo e acesse a pasta do mesmo.
 
 ```
-$ git clone 
-$ cd 
+$ git clone https://github.com/Lara123-pg/CloneNetflix.git
+$ cd CloneNetflix
 $ code .  (Abrir o Visual Studio Code)
 ```
 
@@ -34,4 +33,4 @@ Email: lamorimalvescavalcante@gmail.com
 
 # Licença
 
-Este projeto está sob a licença MIT -
+Este projeto está sob a licença MIT - https://github.com/Lara123-pg/CloneNetflix/blob/main/LICENSE
