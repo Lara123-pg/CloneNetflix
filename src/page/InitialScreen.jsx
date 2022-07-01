@@ -1,10 +1,14 @@
 import React from 'react';
+import { useState } from 'react';
 
 import logo from '../assets/netflixlogo.png';
+import TVImage from '../assets/tv.png';
 
 import '../scss/main.scss';
 
 export function InitialScreen() {
+    const [changeLabel, setChangeLabel] = useState(false);
+
     return(
         <div className="container">
             <div className="initialPart">
@@ -30,7 +34,20 @@ export function InitialScreen() {
                         <h3>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
 
                         <div className="inputButton">
-                            <input type="text" placeholder="Email" />
+                            <input 
+                                type="email" 
+                                name="input-email" 
+                                id="email" 
+                                autoComplete="email"
+                                onClick={() => setChangeLabel(!changeLabel)} 
+                            />
+
+                            <label 
+                                className={changeLabel ? 'clicked' : ''}  
+                                htmlFor="email"
+                            >
+                                Email
+                            </label>
 
                             <button>Vamos lá</button>
                         </div>
