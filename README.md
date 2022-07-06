@@ -1,6 +1,10 @@
 # Clone Netflix
 
 <img src="./src/assets/image1.png" />
+<img src="./src/assets/image2.png" />
+<img src="./src/assets/image3.png" />
+<img src="./src/assets/image4.png" />
+<img src="./src/assets/image5.png" />
 
 # Tecnologias
 

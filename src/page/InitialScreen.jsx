@@ -113,9 +113,9 @@ export function InitialScreen() {
                     </div>
 
                     <div className="imageVideo">
-                        <img src={devicePile} alt="Image of a TV, phone and tablet." />
+                        <img className="tvImage2" src={devicePile} alt="Image of a TV, phone and tablet." />
 
-                        <video autoPlay playsInline muted>
+                        <video className="tvVideo2" autoPlay playsInline muted>
                             <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"/>
                         </video>
                     </div>

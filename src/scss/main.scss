@@ -380,7 +380,7 @@ div.container {
             }
 
             div.imageVideo {
-                img {
+                img.tvImage2 {
                     position: relative;
 
                     z-index: 1;
@@ -389,12 +389,12 @@ div.container {
                     height: auto;
                 }
 
-                video {
+                video.tvVideo2 {
                     position: absolute;
-                    top: 2055px;
+                    bottom: -1612px;
                     left: 875px;
 
-                    width: 25%;
+                    width: 340px;
                 }
             }
         }
