@@ -52,35 +52,6 @@ div.container {
 
                 width: 250px;  
 
-                select {
-                    border: 1px solid $color2;
-
-                    width: 120px;
-
-                    background-color: transparent;
-
-                    padding: 0 1.3em;
-
-                    color: $color2;
-
-                    font-size: 0.86rem;
-
-                    background-image: url('../assets/globo.png');
-                    background-repeat: no-repeat;
-                    background-size: 15px;
-                    background-position: 5px;
-
-                    option {
-                        background-color: $color3;
-
-                        color: $color2;
-                    }
-
-                    &:hover {
-                        cursor: pointer;
-                    }
-                }
-
                 button.loginButton {
                     width: 100px;
                     height: 35px;
@@ -482,6 +453,113 @@ div.container {
                 input:focus + label.clicked {
                     top: 3915px;
                     left: 350px;
+                }
+            }
+        }
+    }
+
+    footer {
+        background-color: $color1;
+
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        border-top: 8px solid $color6;
+        
+        div.footerInfos {
+            max-width: 100%;
+            width: 80%;
+    
+            background-color: $color1;
+
+            padding: 70px 80px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            p {
+                font-size: 16px;
+
+                color: $color9;
+
+                margin-bottom: 1.5em;
+            }
+
+            nav.links {
+                width: 90%;
+
+                display: flex;
+                justify-content: space-between;
+
+                margin-bottom: 1.5em;
+
+                ul{
+                    font-size: 13px;
+
+                    li a {
+                        color: $color9;
+
+                        text-decoration: none;
+
+                        margin-right: 2em;
+                
+                        font-size: 1em;
+
+                        line-height: 2.3em;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+            div.language {
+                height: 70px;
+                
+                div.selectLanguage {
+                    span.icon {
+                        color: $color11;
+
+                        top: 15px;
+                        left: 10px;
+
+                        font-size: 20px;
+                    }
+
+                    select {
+                        width: 152px;
+                        height: 51px;
+
+                        -webkit-appearance: none;
+
+                        padding-left: 2.5em;
+
+                        background-size: 20px;
+
+                        border-color: $color10;
+
+                        font-size: 1rem;
+                        
+                        color: $color11;  
+                        
+                        margin-right: 10em;
+                    }
+
+                    span {
+                        color: $color11;
+
+                        top: 12px;
+                        left: 123px;
+                    }
+                }
+
+                p {
+                    font-size: 13px;
                 }
             }
         }

@@ -1,6 +1,8 @@
 import React from 'react';
 
 import { Question } from '../components/Question';
+import { InputEmail } from '../components/InputEmail';
+import { LanguageOptions } from '../components/LanguageOptions';
 
 import logo from '../assets/netflixlogo.png';
 import TVImage from '../assets/tv.png';
@@ -10,7 +12,6 @@ import devicePile from '../assets/device-pile.png';
 import info from '../assets/info.png';
 
 import '../scss/main.scss';
-import { InputEmail } from '../components/InputEmail';
 
 export function InitialScreen() {
     return(
@@ -20,10 +21,7 @@ export function InitialScreen() {
                     <img src={logo} alt="Netflix Logo" />
 
                     <div className="buttons">
-                        <select name="language" id="language">
-                            <option value="Português">Português</option>
-                            <option value="English">English</option>
-                        </select>
+                        <LanguageOptions />
 
                         <button className="loginButton">Entrar</button>
                     </div>
@@ -166,6 +164,49 @@ export function InitialScreen() {
                     <InputEmail />
                 </div>
             </div>
+            
+            <footer>
+                <div className="footerInfos">
+                    <p>Dúvidas? Ligue 0800 591 8942</p>
+
+                    <nav className="links">
+                        <ul>
+                            <li><a href="#">Perguntas frequentes</a></li>
+                            <li><a href="#">Relações com investidores</a></li>
+                            <li><a href="#">Formas de assistir</a></li>
+                            <li><a href="#">Informações corporativas</a></li>
+                            <li><a href="#">Só na Netflix</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="#">Centro de ajuda</a></li>
+                            <li><a href="#">Carreiras</a></li>
+                            <li><a href="#">Termos de uso</a></li>
+                            <li><a href="#">Entre em contato</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="#">Conta</a></li>
+                            <li><a href="#">Resgatar cartão pré-pago</a></li>
+                            <li><a href="#">Privacidade</a></li>
+                            <li><a href="#">Teste de velocidade</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="#">Media Center</a></li>
+                            <li><a href="#">Comprar cartão pré-pago</a></li>
+                            <li><a href="#">Preferências de cookies</a></li>
+                            <li><a href="#">Avisos legais</a></li>
+                        </ul>
+                    </nav>
+
+                    <div className="language">
+                        <LanguageOptions />
+                        
+                        <p>Netflix Brasil</p>
+                    </div>
+                </div>
+            </footer>
         </div>
     );
 }

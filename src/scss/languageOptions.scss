@@ -1,0 +1,54 @@
+@import './variables';
+
+div.selectLanguage {
+   height: 100%;
+
+   display: flex;
+
+   position: relative;
+
+    span.icon {
+        color: $color2;
+
+        position: absolute;
+        left: 5px;
+        top: 8px;
+    }
+
+    select {
+        border: 1px solid $color2;
+    
+        -webkit-appearance: none;
+    
+        width: 125px;
+        height: 35px;
+    
+        background-color: transparent;
+    
+        padding: 0 1.6em;
+    
+        color: $color2;
+    
+        font-size: 0.86rem;
+    
+        option {
+            background-color: $color3;
+    
+            color: $color2;
+        }
+    
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    span {
+        color: $color2;
+
+        position: absolute;
+        left: 95px;
+        top: 4px;
+
+        pointer-events: none;
+    }
+}
