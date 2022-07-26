@@ -1,4 +1,4 @@
-import '../scss/languageOptions.scss';
+import '../scss/initialPart/languageOptions.scss';
 
 export function LanguageOptions() {
     return(

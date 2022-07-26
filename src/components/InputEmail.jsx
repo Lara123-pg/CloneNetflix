@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import '../scss/inputEmail.scss';
+import '../scss/initialPart/inputEmail.scss';
 
 export function InputEmail() {
     const [changeLabel, setChangeLabel] = useState(false);
