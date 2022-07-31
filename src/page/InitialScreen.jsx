@@ -44,7 +44,7 @@ export function InitialScreen() {
     return(
         <div className="container">
             <div className="initialPart">
-                <header>
+                <div className="header">
                     <img src={logo} alt="Netflix Logo" />
 
                     <div className="buttons">
@@ -52,9 +52,9 @@ export function InitialScreen() {
 
                         <button className="loginButton">Entrar</button>
                     </div>
-                </header>
+                </div>
 
-                <main>
+                <div className="content">
                     <div className="inputTitle">
                         <h1>Filmes, séries e muito mais. Sem limites.</h1>
 
@@ -64,7 +64,7 @@ export function InitialScreen() {
 
                         <InputEmail />
                     </div>
-                </main>
+                </div>
             </div>
 
             <div className="infosSection">
