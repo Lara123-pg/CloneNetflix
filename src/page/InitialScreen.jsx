@@ -11,7 +11,7 @@ import boxshot from '../assets/boxshot.png';
 import devicePile from '../assets/device-pile.png';
 import info from '../assets/info.png';
 
-import '../scss/main.scss';
+import '../scss/initialPart/main.scss';
 
 export function InitialScreen() {
     const [questionsData, setQuestionsData] = useState([]);
