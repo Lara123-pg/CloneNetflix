@@ -35,7 +35,7 @@ div.login {
         justify-content: center;
 
         div.loginContainer {
-            width: 35%;
+            width: 33%;
 
             background-color: $color1;
 
@@ -81,6 +81,10 @@ div.login {
                         border-radius: 5px;
 
                         padding-left: 1.2em;
+
+                        color: $color2;
+
+                        padding-top: 1em;
                     }
 
                     label {
@@ -88,7 +92,7 @@ div.login {
 
                         font-size: 1rem;
 
-                        left: 39%;
+                        left: 40%;
                     }
 
                     div.emailsNumebers {
@@ -113,6 +117,20 @@ div.login {
 
                             bottom: 48%;
                         }
+                    }
+
+                    input:focus + label {
+                        font-size: 12px;
+
+                        transition: 0.2s;
+                    }
+
+                    input:focus + label#emailNumber {
+                        top: 36.5%;
+                    }
+
+                    input:focus + label#passwordLabel {
+                        top: 47.5%;
                     }
                 }
 

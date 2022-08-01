@@ -27,12 +27,12 @@ export function LoginScreen() {
                         <div className="inputs">
                             <div className="emailsNumebers">
                                 <input type="text" name="input-email" id="emailNumber" />
-                                <label htmlFor="emailNumber">Email ou número de telefone</label>
+                                <label htmlFor="emailNumber" id="emailNumber">Email ou número de telefone</label>
                             </div>
 
                             <div className="passwords">
                                 <input type="password" name="input-password" id="password"/>
-                                <label htmlFor="password">Senha</label>
+                                <label htmlFor="password" id="passwordLabel">Senha</label>
                             </div>
                         </div>
 
