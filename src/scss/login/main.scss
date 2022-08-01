@@ -21,6 +21,10 @@ div.login {
 
         img {
             width: 14%;
+
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
 

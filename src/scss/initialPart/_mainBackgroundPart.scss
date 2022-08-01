@@ -29,9 +29,13 @@ div.initialPart {
 
             width: 230px;  
 
-            button.loginButton {
+            .loginButton {
                 width: 80px;
                 height: 35px;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
 
                 background-color: $color5;
 
@@ -43,6 +47,8 @@ div.initialPart {
                 color: $color2;
 
                 font-weight: 400;
+
+                text-decoration: none;
 
                 &:hover {
                     cursor: pointer;

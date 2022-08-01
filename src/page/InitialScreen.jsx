@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
+import { Link } from 'react-router-dom';
+
 import { Question } from '../components/Question';
 import { InputEmail } from '../components/InputEmail';
 import { LanguageOptions } from '../components/LanguageOptions';
@@ -50,7 +52,7 @@ export function InitialScreen() {
                     <div className="buttons">
                         <LanguageOptions />
 
-                        <button className="loginButton">Entrar</button>
+                        <Link to="/login" className="loginButton">Entrar</Link>
                     </div>
                 </div>
 
