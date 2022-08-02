@@ -2,6 +2,8 @@ import React from 'react';
 
 import { useNavigate } from 'react-router-dom';
 
+import { LanguageOptions } from '../components/LanguageOptions';
+
 import logo from '../assets/netflixlogo.png';
 
 import '../scss/login/main.scss';
@@ -57,6 +59,25 @@ export function LoginScreen() {
                     </div>
                 </div>
             </main>
+
+            <footer>
+                <div className="footerContainer">
+                    <p className="contact">Dúvidas? Ligue 0800 591 8942</p>
+
+                    <ul>
+                        <li><a href="#">Perguntas frequentes</a></li>
+                        <li><a href="#">Central de Ajuda</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Privacidade</a></li>
+                        <li><a href="#">Preferências de cookies</a></li>
+                        <li><a href="#">Informações corporativas</a></li>
+                    </ul>
+
+                    <div className="selectLanguage">
+                        <LanguageOptions />
+                    </div>
+                </div>
+            </footer>
         </div>
     );
 }

@@ -7,10 +7,13 @@ $color6: rgb(179, 179, 179);
 $color7: rgb(115, 115, 115);
 $color8: rgba(0, 0, 0, 0);
 $color9: rgb(0, 113, 235);
+$color10: rgba(0, 0, 0, 0.75);
+$color11: rgb(153, 153, 153);
+$color12: rgb(0, 0, 0);
 
 div.login {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
 
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../../assets/backgroundLogin.jpg');
 
@@ -234,6 +237,95 @@ div.login {
                     }
                 }
             }
+        }
+    }
+
+    footer {
+        width: 100%;
+        height: 250px;
+
+        background-color: $color10;
+
+        margin-top: 5em;
+
+        padding: 2em 10em;
+
+        div.footerContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            p.contact {
+                color: $color7;
+
+                font-size: 1rem;
+
+                margin-bottom: 30px;
+            }
+
+            ul {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-rows: 30px 30px;
+
+                list-style: none;
+
+                margin-bottom: 30px;
+
+                li {
+                    a {
+                        color: $color7;
+
+                        font-size: 0.8rem;
+
+                        text-decoration: none;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+            div.selectLanguage {
+                span.icon {
+                    color: $color11;
+
+                    top: 16px;
+                    left: 15px;
+
+                    font-size: 20px;
+                }
+
+                select {
+                    width: 152px;
+                    height: 51px;
+
+                    -webkit-appearance: none;
+
+                    padding-left: 4.2em;
+
+                    background-size: 20px;
+
+                    border-color: $color3;
+
+                    font-size: 0.8rem;
+
+                    background-color: $color12;
+                    
+                    color: $color11;  
+                    
+                    margin-right: 10em;
+                }
+
+                span {
+                    color: $color11;
+
+                    top: 12px;
+                    left: 123px;
+                }
+            }
+
         }
     }
 }
