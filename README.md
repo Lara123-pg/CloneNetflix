@@ -1,5 +1,7 @@
 # Clone Netflix
 
+## Página inicial 
+
 <img src="./src/assets/image1.png" />
 <img src="./src/assets/image2.png" />
 <img src="./src/assets/image3.png" />
@@ -8,6 +10,11 @@
 <img src="./src/assets/image6.png" />
 <img src="./src/assets/image7.png" />
 <img src="./src/assets/image8.png" />
+
+## Página de Login
+
+<img src="./src/assets/image9.png" />
+<img src="./src/assets/image10.png" /> 
 
 # Tecnologias
 
@@ -30,7 +37,7 @@ Logo em seguida, o projeto estará em seu editor para ser executado.
 
 # Projeto
 
-Clone Netflix é um projeto que tem o objetivo treinar os conceitos Frontend com o ReactJS e de ínicio foi criado a parte inicial da página da Netflix.
+Clone Netflix é um projeto que tem o objetivo treinar os conceitos Frontend com o ReactJS e de ínicio foi criado a página inicial e a de login do site da Netflix.
 
 # Autor
 
